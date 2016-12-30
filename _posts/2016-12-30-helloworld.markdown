@@ -1,7 +1,6 @@
 ---
-layout:post
+layout: default
 title: "test blog"
-excerpt:"haha"
 ---
 
 This is my first blog on github.
