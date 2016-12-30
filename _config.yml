@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Blog
-tagline:             Zhedong Zheng
+tagline:             ZhedongZheng
 url:                 http://zdzheng.xyz
 paginate:            1
 baseurl:             ""
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/layumi/Zhedong-Zheng-blog
 
 # Gems
 gems:
