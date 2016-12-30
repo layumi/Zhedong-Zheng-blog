@@ -1,7 +1,8 @@
 ---
-layout:default
-title:Hello World!
+layout:post
+comments:true
+title: "test blog"
 ---
-<h2>{{page.title}}</h2>
-<p>test</p>
-<p>{{page.date | date_to_string}}</p>
+
+This is my first blog on github.
+Happy New Year!
