@@ -6,7 +6,7 @@ Recently I want to change my deeplearning tool from Matconvnet to Tensorflow.
 So I will write several blogs to record my learning step by step.
 
 ## MNIST
-### Perpare
+## Perpare
 ```python
 #Load Data
 from tensorflow.examples.tutotials.mnist import input_data
