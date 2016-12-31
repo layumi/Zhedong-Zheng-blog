@@ -36,7 +36,7 @@ c_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y,y_))
 #reduce_mean takes the average over the loss.
 ```
 
-###Train the Model
+### Train the Model
 
 ```python
 train_step = tf.train.GradientDescentOptimizer(0.5).minimize(c_entropy)
@@ -47,7 +47,7 @@ for i in range(1000):
 # you can replace any tensor with feed_dict
 ```
 
-###Evaluate the Model
+### Evaluate the Model
 
 ```python
 	correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
