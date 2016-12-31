@@ -6,7 +6,7 @@ Recently I want to change my deeplearning tool from Matconvnet to Tensorflow.
 So I will write several blogs to record my learning step by step.
 
 ## MNIST
-
+### Perpare
 ```python
 #Load Data
 from tensorflow.examples.tutotials.mnist import input_data
@@ -30,6 +30,12 @@ W = tf.Variable(tf.zeros([784,10]))
 b = tf.Variable(tf.zeros([10]))
 sess.run(tf.global_variables_initializer()) # re-initialized
 
-
+y = tf.matmul(x,W)+b
+cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y,y_))
+#reduce_mean takes the average over the loss.
+```
+###Train the Model
+```python
+train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 
 ```
