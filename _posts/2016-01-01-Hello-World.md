@@ -35,6 +35,7 @@ y = tf.matmul(x,W)+b
 cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y,y_))
 #reduce_mean takes the average over the loss.
 ```
+
 ###Train the Model
 ```python
 train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
